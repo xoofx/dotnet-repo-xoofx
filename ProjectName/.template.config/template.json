@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Alexandre Mutel",
+    "classifications": [".NET Project", "dotnet-releaser"],
+    "name": ".NET Project with dotnet-releaser",
+    "description": "A solution and project using dotnet-releaser.",
+    "groupIdentity": "xoofx.NET",
+    "identity": "xoofx.NET.default",
+    "shortName": "dotnet-repo-xoofx",
+    "defaultName": "MyLibrary1",
+    "tags": {
+      "language": "C#",
+      "type": "solution"
+    },
+    "sourceName": "ProjectName",
+    "preferNameDirectory": true,
+    "guids": [
+      "BC79BA4C-F502-4AB8-9726-75C064AD3B3A",
+      "2BAB8DFE-20AE-4338-80E0-04C8270DE858"
+    ],
+    "primaryOutputs": [{ "path": "src/ProjectName.sln" }],
+    "symbols": {
+      "dotnet-version": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "7.0",
+        "replaces": "DotNETVersion",
+        "description": "The default .NET version used for the library and tests."
+      },
+      "ProjectDescription": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "This is a default project description",
+        "replaces": "ProjectDescription",
+        "description": "The description of the project."
+      },
+      "ProjectTags": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "tag1;tag2;tag3",
+        "replaces": "ProjectTags",
+        "description": "The list of project tags for the NuGet package."
+      },
+      "AuthorName": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "Alexandre Mutel",
+        "replaces": "AuthorName",
+        "description": "The author name."
+      },
+      "GitHubUser": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "xoofx",
+        "replaces": "GitHubUser",
+        "description": "The GitHub user name."
+      },
+      "UserHomeUrl": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "https://xoofx.com",
+        "replaces": "UserHomeUrl",
+        "description": "Your website URL."
+      },
+      "ProjectYear": {
+        "type": "generated",
+        "generator": "now",
+        "replaces": "ProjectYear",
+        "parameters": {
+          "format": "yyyy"
+        }
+      }
+    }
+  }
