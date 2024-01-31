@@ -23,7 +23,7 @@
       "dotnet-version": {
         "type": "parameter",
         "datatype": "string",
-        "defaultValue": "7.0",
+        "defaultValue": "8.0",
         "replaces": "DotNETVersion",
         "description": "The default .NET version used for the library and tests."
       },
