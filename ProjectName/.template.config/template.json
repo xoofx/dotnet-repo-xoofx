@@ -58,7 +58,7 @@
       "UserHomeUrl": {
         "type": "parameter",
         "datatype": "string",
-        "defaultValue": "https://xoofx.com",
+        "defaultValue": "https://xoofx.github.io",
         "replaces": "UserHomeUrl",
         "description": "Your website URL."
       },
