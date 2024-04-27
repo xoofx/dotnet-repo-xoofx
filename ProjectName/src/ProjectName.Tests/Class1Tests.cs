@@ -1,11 +1,11 @@
-using NUnit.Framework;
 using System;
 
 namespace ProjectName.Tests;
 
+[TestClass]
 public class Class1Test
 {
-    [Test]
+    [TestMethod]
     public void TestSimple()
     {
         // TODO
