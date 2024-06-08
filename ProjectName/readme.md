@@ -4,18 +4,18 @@
 
 ProjectDescription.
 
-## Features
+## ✨ Features
 
 - TODO
 
-## User Guide
+## 📖 User Guide
 
 For more details on how to use ProjectName, please visit the [user guide](https://github.com/GitHubUser/ProjectName/blob/main/doc/readme.md).
 
-## License
+## 🪪 License
 
 This software is released under the [BSD-2-Clause license](https://opensource.org/licenses/BSD-2-Clause). 
 
-## Author
+## 🤗 Author
 
 AuthorName aka [GitHubUser](UserHomeUrl).
